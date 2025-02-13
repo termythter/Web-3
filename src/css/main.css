@@ -1,0 +1,21 @@
+section {
+    margin-top: 10px;
+}
+
+article p {
+    color: rgb(189, 189, 189);
+    padding-top: 4px;
+    margin: 0;
+}
+
+article section:nth-child(odd) img {
+    float: right;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+article section:nth-child(even) img {
+    float: left;
+    margin-right: 12px;
+    margin-top: 9px;
+}

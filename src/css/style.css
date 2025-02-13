@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'B52';
+    src: url('../assets/fonts/B52.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AgHelveticaCyrRoman';
+    src: url('../assets/fonts/AgHelveticaCyrRoman.woff') format('woff');
+}
+
+body, html{
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    background-image: url(../assets/images/side_menu.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 141px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.aside {
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+header .main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+}
+
+.background{
+    position: absolute;
+    background-image: url(../assets/images/disk.png);
+    background-repeat: no-repeat;
+    background-position: top 145px left 515px;
+    background-size: 55%;
+    background-color: black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    height: 150%;
+    z-index: -1;
+}
+
+.right-side {
+    float: right; 
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 145px;
+    padding: 0;
+}
+
+.container {
+    padding: 6px;
+    max-width: 780px;
+    margin: auto;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.container-table{
+    display:table-row;
+    float: left;
+}
+
+.main-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.77rem;
+    display: table-cell;
+    letter-spacing: 0.01rem;
+    line-height: 0.9rem;
+    max-width: 510px;
+    min-width: 330px;
+    vertical-align: top;
+}
+
+.main-menu li {
+    font-family: 'B52';
+    font-size: 0.575rem;
+    margin-right: 4px;
+    display: inline;
+    color: white;
+}
+
+.side-menu {
+    font-family: 'B52';
+    font-size: 0.73rem;
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.28rem;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.banner {
+    height: 124px;
+    background-size: contain;
+    background-image: url(../assets/images/header.png);
+    min-width: 780px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo {
+    margin-top: 24px;
+    margin-left: 216px;
+}
+
+.site-link {
+    position: absolute;
+    left: 95px;
+    bottom: 1px;
+    font-family: 'B52';
+    font-size: 1.865rem;
+    color: white;
+    margin: 0;
+}
+
+.dots {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
